@@ -1,7 +1,6 @@
 # aimd_ana
 These codes analyze specific ab initial trajectories and compare them to outputs from Classical MD trajectories 
 
-'WaterHydroxide27Images_wrapped_Center.f90' : Will read through Qchem trajectory data and then write cartesian coordinates of the molecules of interest for visualization and structural analysis. 
 
 '3_ana_f-dip_backgeo_wrapper.py' : is able to create CHARMM MD inputs flies using the previous coordinates and then run a short simulation. This calculates the energetic and structural difference between Qchem vs classical MD- The ensemble average of which is our target function. 
 
